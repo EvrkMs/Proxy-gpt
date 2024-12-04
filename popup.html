@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Proxy Manager</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Колонка для пользовательских доменов -->
+    <div class="column">
+      <h3>Custom Domains</h3>
+      <div class="domain-input-container">
+        <input type="text" id="domainInput" placeholder="Enter domain">
+        <button id="addDomain">Add</button>
+      </div>
+      <ul id="customDomainList"></ul>
+    </div>
+
+    <!-- Колонка для пресетов -->
+    <div class="column">
+      <h3>Presets</h3>
+      <ul id="presetList"></ul>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
